@@ -5,7 +5,7 @@ ui <- fluidPage(
     sidebarLayout(
         sidebarPanel(
           "Aqui van los inputs.",
-          "Este input es de ejemplo. 
+          "Cómo resolver conflictos. 
           Es numerico. Tu tienes que poner uno del tipo slider",
           numericInput(inputId = "ex", label = "Selecciona meses", value = 0, min = 0, max = 6)
         ),
