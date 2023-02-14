@@ -5,7 +5,7 @@ ui <- fluidPage(
     sidebarLayout(
         sidebarPanel(
           "Aqui van los inputs.",
-          "No entiendo cuando surgen los conflictos ni como se resuelven unu. 
+          "Creo que tiene que ver con commits y no tanto con el texto del codigo. 
           Es numerico. Tu tienes que poner uno del tipo slider",
           numericInput(inputId = "ex", label = "Selecciona meses", value = 0, min = 0, max = 6)
         ),
