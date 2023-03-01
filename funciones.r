@@ -4,6 +4,7 @@ library(ggplot2)
 rm(list = ls())
 
 # TODO - encontrar un buen ejemplo repetitivo para introducir funciones
+# TODO - encontrar un buen ejemplo repetitivo para introducir for loops
 # TODO - funciones puras
 
 
