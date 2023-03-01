@@ -5,7 +5,7 @@ ui <- fluidPage(
     sidebarLayout(
         sidebarPanel(
           "Aqui van los inputs.",
-          "Esto deberia ocasionar un merge conflict. No entiendo cuando surgen los conflictos ni como se resuelven unu. 
+          "Este input es de ejemplo. 
           Es numerico. Tu tienes que poner uno del tipo slider",
           numericInput(inputId = "ex", label = "Selecciona meses", value = 0, min = 0, max = 6)
         ),

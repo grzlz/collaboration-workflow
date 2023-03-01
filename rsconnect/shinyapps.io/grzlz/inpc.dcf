@@ -1,0 +1,13 @@
+name: inpc
+title: inpc
+username:
+account: grzlz
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 8256876
+bundleId: 6823955
+url: https://grzlz.shinyapps.io/inpc/
+when: 1675870357.12243
+lastSyncTime: 1675870357.12244
+asMultiple: FALSE
+asStatic: FALSE
