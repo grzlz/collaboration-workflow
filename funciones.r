@@ -3,6 +3,9 @@ library(ggplot2)
 
 rm(list = ls())
 
+# Las funciones pueden tomar/leer variables definidas fuera de su scope 
+# Pero no pueden modificarlas
+
 external_var <- 202301
 my_f <- function(iterations) {
   c <- data.frame(x = external_var, idx = 0)
