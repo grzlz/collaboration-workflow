@@ -23,6 +23,11 @@ my_f <- function(iterations) {
   return(c)
 }
 
+# No olvidar enfasis en acumuladores
+# Pero tambien mostrar que podemos prescindir de el 
+# si mantenemos un registro del valor maximo en el vector
+# al cual agregar solamente 1
+
 a <- my_f(5)
 
 
