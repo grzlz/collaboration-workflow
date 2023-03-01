@@ -39,6 +39,10 @@ bfun <- function() {
 b_fun <- bfun()
 
 
+# en ggplot no es suficiente con indicar el nombre del objeto que queremos
+# agregar como capa. aes() es insuficiente. Tenemos que usar algo llamado
+# aes_string() para, ahora si, poder utilizar el nombre como texto del objeto
+# y finalmente decirle a ggplot que ese es un vector que graficar
 
 
 display_plot <- function() {
