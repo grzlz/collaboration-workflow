@@ -3,6 +3,9 @@ library(ggplot2)
 
 rm(list = ls())
 
+# TODO - funciones puras
+
+
 # Las funciones pueden tomar/leer variables definidas fuera de su scope 
 # Pero no pueden modificarlas
 
