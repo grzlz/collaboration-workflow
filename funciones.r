@@ -3,6 +3,7 @@ library(ggplot2)
 
 rm(list = ls())
 
+# TODO - encontrar un buen ejemplo repetitivo para introducir funciones
 # TODO - funciones puras
 
 
