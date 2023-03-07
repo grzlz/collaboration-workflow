@@ -3,6 +3,118 @@ library(ggplot2)
 
 rm(list = ls())
 
+
+
+
+
+
+
+
+
+# Scope
+
+
+funcion_a <- function(a) {
+  
+  acumulador <- data.frame(var1 = c(), var2 = c())
+  for(i in 1:a) {
+    print("Hola")
+    df_auxiliar <- data.frame(var1 = i, var2 = "Hola")
+    acumulador <- rbind(acumulador, df_auxiliar)
+  }
+  
+  return(acumulador)
+}
+
+variable1 <- funcion_a(5)
+
+
+
+
+
+c <- 50
+
+for(i in 1:5) {
+  c <- c + 1
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+sample_data <- data.frame(dates = sample(seq(as.Date('2020-01-01'),
+                                             as.Date('2023-01-01'),
+                                             by="day"),
+                                             60, replace = FALSE),
+                          values = sample(400:800, 60))
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+# Scope
+# For loops dentro de funciones
+# Funciones dentro de funciones
+
+
 # TODO - encontrar un buen ejemplo repetitivo para introducir funciones
 # TODO - encontrar un buen ejemplo repetitivo para introducir for loops
 # TODO - funciones puras
